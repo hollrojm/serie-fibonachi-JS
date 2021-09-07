@@ -22,12 +22,6 @@ Si se tine que aprender algo nuevo rapido donde se tiene muy poco tiempo , se pu
 
 
 
-
-¿Por qué se usa?
-
-
-
-
 ¿Cuál fue la mayor dificultad?
 
 Instalar el la aplicacion y acomadarce a la escritura con los compañeros.
@@ -36,9 +30,13 @@ Instalar el la aplicacion y acomadarce a la escritura con los compañeros.
 
 
 
+# Imagen en ejecución 
+
+
+![Imagen](Run.png)
 
 
 
-¿Cuál fue la mayor dificultad?
+
 
 
