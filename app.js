@@ -1,39 +1,19 @@
-/*
-function generateFibonacci(number){
-    let value = 0;
-    let valueTwo = 1;
 
-
-    for(let i=0; i < number; i++){
-        
-        let temp = value;
-        value = valueTwo;
-        valueTwo = temp + valueTwo;
-        console.log(value+" ");
-    }
-    
-        
-    }
-    console.log(generateFibonacci());
-*/
-
-/*
-   
-  */
-
-
-
-function Fibonacci(nro) {
-    let anterior=0;
-    let actual=1
-    let aux=1
-    for (let i = 0; i < nro.length; i++) {
-        aux=actual
-        actual=anterior+actual
-        anterior=aux;
-        console.log(actual)
-        
-        
-    }
-    Fibonacci(5)
+function fibonacci(){ 
+	var i = 0;
+	var valor = document.getElementById('number').value;
+	var arreglo = [];
+	valor = parseInt(valor);
+	for (i; i < valor; i++){
+		if(i==0){
+			arreglo.push(0);
+		}
+		else if(i==1){
+			arreglo.push(1);
+		}
+		else{
+			arreglo.push(arreglo[i-1] + arreglo[i-2]);
+		}
+	}
+	document.getElementById("resultado").innerHTML ="<h3>"+arreglo+"</h3>";
 }
