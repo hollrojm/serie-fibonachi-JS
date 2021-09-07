@@ -33,7 +33,7 @@ Instalar el la aplicacion y acomadarce a la escritura con los compañeros.
 # Imagen en ejecución 
 
 
-![Imagen](Run.png)
+![Imagen](Run.PNG)
 
 
 
